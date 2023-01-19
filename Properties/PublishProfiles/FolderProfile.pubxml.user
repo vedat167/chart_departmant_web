@@ -1,0 +1,1954 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\vozturk\Desktop\dd\</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/cizelge.dll">
+      <publishTime>10/24/2018 09:55:42</publishTime>
+    </File>
+    <File Include="bin/cizelge.pdb">
+      <publishTime>10/24/2018 09:55:42</publishTime>
+    </File>
+    <File Include="bootstrap-3.3.7-dist/css/bootstrap-theme.css">
+      <publishTime>07/25/2016 15:53:28</publishTime>
+    </File>
+    <File Include="bootstrap-3.3.7-dist/css/bootstrap-theme.css.map">
+      <publishTime>07/25/2016 15:53:28</publishTime>
+    </File>
+    <File Include="bootstrap-3.3.7-dist/css/bootstrap-theme.min.css">
+      <publishTime>07/25/2016 15:53:28</publishTime>
+    </File>
+    <File Include="bootstrap-3.3.7-dist/css/bootstrap-theme.min.css.map">
+      <publishTime>07/25/2016 15:53:28</publishTime>
+    </File>
+    <File Include="bootstrap-3.3.7-dist/css/bootstrap.css">
+      <publishTime>10/16/2018 10:09:04</publishTime>
+    </File>
+    <File Include="bootstrap-3.3.7-dist/css/bootstrap.css.map">
+      <publishTime>07/25/2016 15:53:28</publishTime>
+    </File>
+    <File Include="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+      <publishTime>07/25/2016 15:53:28</publishTime>
+    </File>
+    <File Include="bootstrap-3.3.7-dist/css/bootstrap.min.css.map">
+      <publishTime>07/25/2016 15:53:28</publishTime>
+    </File>
+    <File Include="bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.eot">
+      <publishTime>07/25/2016 13:43:02</publishTime>
+    </File>
+    <File Include="bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.svg">
+      <publishTime>07/25/2016 13:43:02</publishTime>
+    </File>
+    <File Include="bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>07/25/2016 13:43:02</publishTime>
+    </File>
+    <File Include="bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff">
+      <publishTime>07/25/2016 13:43:02</publishTime>
+    </File>
+    <File Include="bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>07/25/2016 13:43:02</publishTime>
+    </File>
+    <File Include="bootstrap-3.3.7-dist/js/bootstrap.js">
+      <publishTime>07/25/2016 15:53:28</publishTime>
+    </File>
+    <File Include="bootstrap-3.3.7-dist/js/bootstrap.min.js">
+      <publishTime>07/25/2016 15:53:30</publishTime>
+    </File>
+    <File Include="bootstrap-3.3.7-dist/js/npm.js">
+      <publishTime>07/25/2016 15:53:30</publishTime>
+    </File>
+    <File Include="bootstrap-datetimepicker/bootstrap-datetimepicker-standalone.css">
+      <publishTime>10/16/2018 15:07:12</publishTime>
+    </File>
+    <File Include="bootstrap-datetimepicker/bootstrap-datetimepicker.min.css">
+      <publishTime>10/16/2018 15:07:12</publishTime>
+    </File>
+    <File Include="bootstrap-datetimepicker/bootstrap-datetimepicker.min.js">
+      <publishTime>10/16/2018 15:07:12</publishTime>
+    </File>
+    <File Include="bootstrap-datetimepicker/moment.min.js">
+      <publishTime>10/16/2018 15:07:12</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/.github/ISSUE_TEMPLATE.md">
+      <publishTime>10/17/2018 13:55:20</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/.gitignore">
+      <publishTime>10/17/2018 13:55:20</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/.travis.yml">
+      <publishTime>10/17/2018 13:55:20</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/bootstrap-table.jquery.json">
+      <publishTime>10/17/2018 13:55:20</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/bower.json">
+      <publishTime>10/17/2018 13:55:20</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/CHANGELOG.md">
+      <publishTime>10/17/2018 13:55:20</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/composer.json">
+      <publishTime>10/17/2018 13:55:20</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/CONTRIBUTING.md">
+      <publishTime>10/17/2018 13:55:20</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/bootstrap-table-locale-all.js">
+      <publishTime>10/17/2018 13:55:20</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/bootstrap-table-locale-all.min.js">
+      <publishTime>10/17/2018 13:55:20</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/bootstrap-table.css">
+      <publishTime>10/17/2018 13:55:20</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/bootstrap-table.js">
+      <publishTime>10/17/2018 13:55:20</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/bootstrap-table.min.css">
+      <publishTime>10/17/2018 13:55:20</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/bootstrap-table.min.js">
+      <publishTime>10/17/2018 13:55:20</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/extensions/accent-neutralise/bootstrap-table-accent-neutralise.js">
+      <publishTime>10/17/2018 13:55:20</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/extensions/accent-neutralise/bootstrap-table-accent-neutralise.min.js">
+      <publishTime>10/17/2018 13:55:20</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/extensions/angular/bootstrap-table-angular.js">
+      <publishTime>10/17/2018 13:55:20</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/extensions/angular/bootstrap-table-angular.min.js">
+      <publishTime>10/17/2018 13:55:20</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/extensions/auto-refresh/bootstrap-table-auto-refresh.css">
+      <publishTime>10/17/2018 13:55:20</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/extensions/auto-refresh/bootstrap-table-auto-refresh.js">
+      <publishTime>10/17/2018 13:55:20</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/extensions/auto-refresh/bootstrap-table-auto-refresh.min.js">
+      <publishTime>10/17/2018 13:55:20</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/extensions/click-edit-row/bootstrap-table-click-edit-row.css">
+      <publishTime>10/17/2018 13:55:20</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/extensions/click-edit-row/bootstrap-table-click-edit-row.js">
+      <publishTime>10/17/2018 13:55:20</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/extensions/click-edit-row/bootstrap-table-click-edit-row.min.js">
+      <publishTime>10/17/2018 13:55:20</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/extensions/cookie/bootstrap-table-cookie.js">
+      <publishTime>10/17/2018 13:55:20</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/extensions/cookie/bootstrap-table-cookie.min.js">
+      <publishTime>10/17/2018 13:55:20</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/extensions/copy-rows/bootstrap-table-copy-rows.js">
+      <publishTime>10/17/2018 13:55:20</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/extensions/copy-rows/bootstrap-table-copy-rows.min.js">
+      <publishTime>10/17/2018 13:55:20</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/extensions/defer-url/bootstrap-table-defer-url.js">
+      <publishTime>10/17/2018 13:55:20</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/extensions/defer-url/bootstrap-table-defer-url.min.js">
+      <publishTime>10/17/2018 13:55:20</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/extensions/editable/bootstrap-table-editable.js">
+      <publishTime>10/17/2018 13:55:20</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/extensions/editable/bootstrap-table-editable.min.js">
+      <publishTime>10/17/2018 13:55:20</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/extensions/export/bootstrap-table-export.js">
+      <publishTime>10/17/2018 13:55:20</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/extensions/export/bootstrap-table-export.min.js">
+      <publishTime>10/17/2018 13:55:20</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/extensions/filter-control/bootstrap-table-filter-control.css">
+      <publishTime>10/17/2018 13:55:20</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/extensions/filter-control/bootstrap-table-filter-control.js">
+      <publishTime>10/17/2018 13:55:20</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/extensions/filter-control/bootstrap-table-filter-control.min.js">
+      <publishTime>10/17/2018 13:55:20</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/extensions/filter/bootstrap-table-filter.js">
+      <publishTime>10/17/2018 13:55:20</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/extensions/filter/bootstrap-table-filter.min.js">
+      <publishTime>10/17/2018 13:55:20</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/extensions/flat-json/bootstrap-table-flat-json.js">
+      <publishTime>10/17/2018 13:55:20</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/extensions/flat-json/bootstrap-table-flat-json.min.js">
+      <publishTime>10/17/2018 13:55:20</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/extensions/group-by-v2/bootstrap-table-group-by.css">
+      <publishTime>10/17/2018 13:55:20</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/extensions/group-by-v2/bootstrap-table-group-by.js">
+      <publishTime>10/17/2018 13:55:20</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/extensions/group-by-v2/bootstrap-table-group-by.min.js">
+      <publishTime>10/17/2018 13:55:20</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/extensions/group-by/bootstrap-table-group-by.css">
+      <publishTime>10/17/2018 13:55:20</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/extensions/group-by/bootstrap-table-group-by.js">
+      <publishTime>10/17/2018 13:55:20</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/extensions/group-by/bootstrap-table-group-by.min.js">
+      <publishTime>10/17/2018 13:55:20</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/extensions/i18n-enhance/bootstrap-table-i18n-enhance.js">
+      <publishTime>10/17/2018 13:55:20</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/extensions/i18n-enhance/bootstrap-table-i18n-enhance.min.js">
+      <publishTime>10/17/2018 13:55:20</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/extensions/key-events/bootstrap-table-key-events.js">
+      <publishTime>10/17/2018 13:55:20</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/extensions/key-events/bootstrap-table-key-events.min.js">
+      <publishTime>10/17/2018 13:55:20</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/extensions/mobile/bootstrap-table-mobile.js">
+      <publishTime>10/17/2018 13:55:20</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/extensions/mobile/bootstrap-table-mobile.min.js">
+      <publishTime>10/17/2018 13:55:20</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/extensions/multi-column-toggle/bootstrap-table-multi-toggle.js">
+      <publishTime>10/17/2018 13:55:20</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/extensions/multi-column-toggle/bootstrap-table-multi-toggle.min.js">
+      <publishTime>10/17/2018 13:55:20</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/extensions/multiple-search/bootstrap-table-multiple-search.js">
+      <publishTime>10/17/2018 13:55:20</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/extensions/multiple-search/bootstrap-table-multiple-search.min.js">
+      <publishTime>10/17/2018 13:55:21</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/extensions/multiple-selection-row/bootstrap-table-multiple-selection-row.css">
+      <publishTime>10/17/2018 13:55:21</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/extensions/multiple-selection-row/bootstrap-table-multiple-selection-row.js">
+      <publishTime>10/17/2018 13:55:21</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/extensions/multiple-selection-row/bootstrap-table-multiple-selection-row.min.js">
+      <publishTime>10/17/2018 13:55:21</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/extensions/multiple-sort/bootstrap-table-multiple-sort.js">
+      <publishTime>10/17/2018 13:55:21</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/extensions/multiple-sort/bootstrap-table-multiple-sort.min.js">
+      <publishTime>10/17/2018 13:55:21</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/extensions/natural-sorting/bootstrap-table-natural-sorting.js">
+      <publishTime>10/17/2018 13:55:21</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/extensions/natural-sorting/bootstrap-table-natural-sorting.min.js">
+      <publishTime>10/17/2018 13:55:21</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/extensions/page-jumpto/bootstrap-table-jumpto.css">
+      <publishTime>10/17/2018 13:55:21</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/extensions/page-jumpto/bootstrap-table-jumpto.js">
+      <publishTime>10/17/2018 13:55:21</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/extensions/page-jumpto/bootstrap-table-jumpto.min.js">
+      <publishTime>10/17/2018 13:55:21</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/extensions/print/bootstrap-table-print.js">
+      <publishTime>10/17/2018 13:55:21</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/extensions/print/bootstrap-table-print.min.js">
+      <publishTime>10/17/2018 13:55:21</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/extensions/reorder-columns/bootstrap-table-reorder-columns.js">
+      <publishTime>10/17/2018 13:55:21</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/extensions/reorder-columns/bootstrap-table-reorder-columns.min.js">
+      <publishTime>10/17/2018 13:55:21</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/extensions/reorder-rows/bootstrap-table-reorder-rows.css">
+      <publishTime>10/17/2018 13:55:21</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/extensions/reorder-rows/bootstrap-table-reorder-rows.js">
+      <publishTime>10/17/2018 13:55:21</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/extensions/reorder-rows/bootstrap-table-reorder-rows.min.js">
+      <publishTime>10/17/2018 13:55:21</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/extensions/resizable/bootstrap-table-resizable.js">
+      <publishTime>10/17/2018 13:55:21</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/extensions/resizable/bootstrap-table-resizable.min.js">
+      <publishTime>10/17/2018 13:55:21</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/extensions/select2-filter/bootstrap-table-select2-filter.js">
+      <publishTime>10/17/2018 13:55:21</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/extensions/select2-filter/bootstrap-table-select2-filter.min.js">
+      <publishTime>10/17/2018 13:55:21</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/extensions/sticky-header/bootstrap-table-sticky-header.css">
+      <publishTime>10/17/2018 13:55:21</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/extensions/sticky-header/bootstrap-table-sticky-header.js">
+      <publishTime>10/17/2018 13:55:21</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/extensions/sticky-header/bootstrap-table-sticky-header.min.js">
+      <publishTime>10/17/2018 13:55:21</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/extensions/toolbar/bootstrap-table-toolbar.js">
+      <publishTime>10/17/2018 13:55:21</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/extensions/toolbar/bootstrap-table-toolbar.min.js">
+      <publishTime>10/17/2018 13:55:21</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/extensions/tree-column/bootstrap-table-tree-column.css">
+      <publishTime>10/17/2018 13:55:21</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/extensions/tree-column/bootstrap-table-tree-column.js">
+      <publishTime>10/17/2018 13:55:21</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/extensions/tree-column/bootstrap-table-tree-column.min.js">
+      <publishTime>10/17/2018 13:55:21</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/extensions/treegrid/bootstrap-table-treegrid.js">
+      <publishTime>10/17/2018 13:55:21</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/extensions/treegrid/bootstrap-table-treegrid.min.js">
+      <publishTime>10/17/2018 13:55:21</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/locale/bootstrap-table-af-ZA.js">
+      <publishTime>10/17/2018 13:55:21</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/locale/bootstrap-table-af-ZA.min.js">
+      <publishTime>10/17/2018 13:55:21</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/locale/bootstrap-table-ar-SA.js">
+      <publishTime>10/17/2018 13:55:21</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/locale/bootstrap-table-ar-SA.min.js">
+      <publishTime>10/17/2018 13:55:21</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/locale/bootstrap-table-ca-ES.js">
+      <publishTime>10/17/2018 13:55:21</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/locale/bootstrap-table-ca-ES.min.js">
+      <publishTime>10/17/2018 13:55:21</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/locale/bootstrap-table-cs-CZ.js">
+      <publishTime>10/17/2018 13:55:21</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/locale/bootstrap-table-cs-CZ.min.js">
+      <publishTime>10/17/2018 13:55:21</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/locale/bootstrap-table-da-DK.js">
+      <publishTime>10/17/2018 13:55:21</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/locale/bootstrap-table-da-DK.min.js">
+      <publishTime>10/17/2018 13:55:21</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/locale/bootstrap-table-de-DE.js">
+      <publishTime>10/17/2018 13:55:21</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/locale/bootstrap-table-de-DE.min.js">
+      <publishTime>10/17/2018 13:55:21</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/locale/bootstrap-table-el-GR.js">
+      <publishTime>10/17/2018 13:55:21</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/locale/bootstrap-table-el-GR.min.js">
+      <publishTime>10/17/2018 13:55:21</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/locale/bootstrap-table-en-US.js">
+      <publishTime>10/17/2018 13:55:21</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/locale/bootstrap-table-en-US.min.js">
+      <publishTime>10/17/2018 13:55:21</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/locale/bootstrap-table-es-AR.js">
+      <publishTime>10/17/2018 13:55:21</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/locale/bootstrap-table-es-AR.min.js">
+      <publishTime>10/17/2018 13:55:21</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/locale/bootstrap-table-es-CL.js">
+      <publishTime>10/17/2018 13:55:21</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/locale/bootstrap-table-es-CL.min.js">
+      <publishTime>10/17/2018 13:55:21</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/locale/bootstrap-table-es-CR.js">
+      <publishTime>10/17/2018 13:55:21</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/locale/bootstrap-table-es-CR.min.js">
+      <publishTime>10/17/2018 13:55:21</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/locale/bootstrap-table-es-ES.js">
+      <publishTime>10/17/2018 13:55:21</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/locale/bootstrap-table-es-ES.min.js">
+      <publishTime>10/17/2018 13:55:21</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/locale/bootstrap-table-es-MX.js">
+      <publishTime>10/17/2018 13:55:21</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/locale/bootstrap-table-es-MX.min.js">
+      <publishTime>10/17/2018 13:55:21</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/locale/bootstrap-table-es-NI.js">
+      <publishTime>10/17/2018 13:55:21</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/locale/bootstrap-table-es-NI.min.js">
+      <publishTime>10/17/2018 13:55:21</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/locale/bootstrap-table-es-SP.js">
+      <publishTime>10/17/2018 13:55:21</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/locale/bootstrap-table-es-SP.min.js">
+      <publishTime>10/17/2018 13:55:21</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/locale/bootstrap-table-et-EE.js">
+      <publishTime>10/17/2018 13:55:21</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/locale/bootstrap-table-et-EE.min.js">
+      <publishTime>10/17/2018 13:55:21</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/locale/bootstrap-table-eu-EU.js">
+      <publishTime>10/17/2018 13:55:21</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/locale/bootstrap-table-eu-EU.min.js">
+      <publishTime>10/17/2018 13:55:21</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/locale/bootstrap-table-fa-IR.js">
+      <publishTime>10/17/2018 13:55:21</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/locale/bootstrap-table-fa-IR.min.js">
+      <publishTime>10/17/2018 13:55:21</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/locale/bootstrap-table-fr-BE.js">
+      <publishTime>10/17/2018 13:55:21</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/locale/bootstrap-table-fr-BE.min.js">
+      <publishTime>10/17/2018 13:55:21</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/locale/bootstrap-table-fr-FR.js">
+      <publishTime>10/17/2018 13:55:21</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/locale/bootstrap-table-fr-FR.min.js">
+      <publishTime>10/17/2018 13:55:21</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/locale/bootstrap-table-he-IL.js">
+      <publishTime>10/17/2018 13:55:21</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/locale/bootstrap-table-he-IL.min.js">
+      <publishTime>10/17/2018 13:55:21</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/locale/bootstrap-table-hr-HR.js">
+      <publishTime>10/17/2018 13:55:21</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/locale/bootstrap-table-hr-HR.min.js">
+      <publishTime>10/17/2018 13:55:21</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/locale/bootstrap-table-hu-HU.js">
+      <publishTime>10/17/2018 13:55:21</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/locale/bootstrap-table-hu-HU.min.js">
+      <publishTime>10/17/2018 13:55:21</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/locale/bootstrap-table-id-ID.js">
+      <publishTime>10/17/2018 13:55:22</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/locale/bootstrap-table-id-ID.min.js">
+      <publishTime>10/17/2018 13:55:22</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/locale/bootstrap-table-it-IT.js">
+      <publishTime>10/17/2018 13:55:22</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/locale/bootstrap-table-it-IT.min.js">
+      <publishTime>10/17/2018 13:55:22</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/locale/bootstrap-table-ja-JP.js">
+      <publishTime>10/17/2018 13:55:22</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/locale/bootstrap-table-ja-JP.min.js">
+      <publishTime>10/17/2018 13:55:22</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/locale/bootstrap-table-ka-GE.js">
+      <publishTime>10/17/2018 13:55:22</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/locale/bootstrap-table-ka-GE.min.js">
+      <publishTime>10/17/2018 13:55:22</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/locale/bootstrap-table-ko-KR.js">
+      <publishTime>10/17/2018 13:55:22</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/locale/bootstrap-table-ko-KR.min.js">
+      <publishTime>10/17/2018 13:55:22</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/locale/bootstrap-table-ms-MY.js">
+      <publishTime>10/17/2018 13:55:22</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/locale/bootstrap-table-ms-MY.min.js">
+      <publishTime>10/17/2018 13:55:22</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/locale/bootstrap-table-nb-NO.js">
+      <publishTime>10/17/2018 13:55:22</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/locale/bootstrap-table-nb-NO.min.js">
+      <publishTime>10/17/2018 13:55:22</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/locale/bootstrap-table-nl-NL.js">
+      <publishTime>10/17/2018 13:55:22</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/locale/bootstrap-table-nl-NL.min.js">
+      <publishTime>10/17/2018 13:55:22</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/locale/bootstrap-table-pl-PL.js">
+      <publishTime>10/17/2018 13:55:22</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/locale/bootstrap-table-pl-PL.min.js">
+      <publishTime>10/17/2018 13:55:22</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/locale/bootstrap-table-pt-BR.js">
+      <publishTime>10/17/2018 13:55:22</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/locale/bootstrap-table-pt-BR.min.js">
+      <publishTime>10/17/2018 13:55:22</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/locale/bootstrap-table-pt-PT.js">
+      <publishTime>10/17/2018 13:55:22</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/locale/bootstrap-table-pt-PT.min.js">
+      <publishTime>10/17/2018 13:55:22</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/locale/bootstrap-table-ro-RO.js">
+      <publishTime>10/17/2018 13:55:22</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/locale/bootstrap-table-ro-RO.min.js">
+      <publishTime>10/17/2018 13:55:22</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/locale/bootstrap-table-ru-RU.js">
+      <publishTime>10/17/2018 13:55:22</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/locale/bootstrap-table-ru-RU.min.js">
+      <publishTime>10/17/2018 13:55:22</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/locale/bootstrap-table-sk-SK.js">
+      <publishTime>10/17/2018 13:55:22</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/locale/bootstrap-table-sk-SK.min.js">
+      <publishTime>10/17/2018 13:55:22</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/locale/bootstrap-table-sv-SE.js">
+      <publishTime>10/17/2018 13:55:22</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/locale/bootstrap-table-sv-SE.min.js">
+      <publishTime>10/17/2018 13:55:22</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/locale/bootstrap-table-th-TH.js">
+      <publishTime>10/17/2018 13:55:22</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/locale/bootstrap-table-th-TH.min.js">
+      <publishTime>10/17/2018 13:55:22</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/locale/bootstrap-table-tr-TR.js">
+      <publishTime>10/17/2018 13:55:22</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/locale/bootstrap-table-tr-TR.min.js">
+      <publishTime>10/17/2018 13:55:22</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/locale/bootstrap-table-uk-UA.js">
+      <publishTime>10/17/2018 13:55:22</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/locale/bootstrap-table-uk-UA.min.js">
+      <publishTime>10/17/2018 13:55:22</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/locale/bootstrap-table-ur-PK.js">
+      <publishTime>10/17/2018 13:55:22</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/locale/bootstrap-table-ur-PK.min.js">
+      <publishTime>10/17/2018 13:55:22</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/locale/bootstrap-table-uz-Latn-UZ.js">
+      <publishTime>10/17/2018 13:55:22</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/locale/bootstrap-table-uz-Latn-UZ.min.js">
+      <publishTime>10/17/2018 13:55:22</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/locale/bootstrap-table-vi-VN.js">
+      <publishTime>10/17/2018 13:55:22</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/locale/bootstrap-table-vi-VN.min.js">
+      <publishTime>10/17/2018 13:55:22</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/locale/bootstrap-table-zh-CN.js">
+      <publishTime>10/17/2018 13:55:22</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/locale/bootstrap-table-zh-CN.min.js">
+      <publishTime>10/17/2018 13:55:22</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/locale/bootstrap-table-zh-TW.js">
+      <publishTime>10/17/2018 13:55:22</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/dist/locale/bootstrap-table-zh-TW.min.js">
+      <publishTime>10/17/2018 13:55:22</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/apple-touch-icon.png">
+      <publishTime>10/17/2018 13:55:22</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/assets/bootstrap/css/bootstrap-theme.css">
+      <publishTime>10/17/2018 13:55:22</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/assets/bootstrap/css/bootstrap-theme.css.map">
+      <publishTime>10/17/2018 13:55:22</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/assets/bootstrap/css/bootstrap-theme.min.css">
+      <publishTime>10/17/2018 13:55:22</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/assets/bootstrap/css/bootstrap.css">
+      <publishTime>10/17/2018 13:55:22</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/assets/bootstrap/css/bootstrap.css.map">
+      <publishTime>10/17/2018 13:55:22</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/assets/bootstrap/css/bootstrap.min.css">
+      <publishTime>10/17/2018 13:55:22</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/assets/bootstrap/fonts/glyphicons-halflings-regular.eot">
+      <publishTime>10/17/2018 13:55:22</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/assets/bootstrap/fonts/glyphicons-halflings-regular.svg">
+      <publishTime>10/17/2018 13:55:22</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/assets/bootstrap/fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>10/17/2018 13:55:22</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/assets/bootstrap/fonts/glyphicons-halflings-regular.woff">
+      <publishTime>10/17/2018 13:55:22</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/assets/bootstrap/js/bootstrap.js">
+      <publishTime>10/17/2018 13:55:22</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/assets/bootstrap/js/bootstrap.min.js">
+      <publishTime>10/17/2018 13:55:22</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/assets/bootstrap/js/npm.js">
+      <publishTime>10/17/2018 13:55:22</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/assets/css/docs.min.css">
+      <publishTime>10/17/2018 13:55:22</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/assets/css/sidenav.css">
+      <publishTime>10/17/2018 13:55:22</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/assets/css/style.css">
+      <publishTime>10/17/2018 13:55:22</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/assets/flash/ZeroClipboard.swf">
+      <publishTime>10/17/2018 13:55:22</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/assets/images/alipay.jpg">
+      <publishTime>10/17/2018 13:55:22</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/assets/images/alipayLogo.png">
+      <publishTime>10/17/2018 13:55:22</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/assets/images/paypalLogo.png">
+      <publishTime>10/17/2018 13:55:22</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/assets/images/weixin.png">
+      <publishTime>10/17/2018 13:55:22</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/assets/images/weixinLogo.png">
+      <publishTime>10/17/2018 13:55:22</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/assets/js/common.js">
+      <publishTime>10/17/2018 13:55:22</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/assets/js/customize.min.js">
+      <publishTime>10/17/2018 13:55:22</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/assets/js/docs.min.js">
+      <publishTime>10/17/2018 13:55:22</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/assets/js/ie-emulation-modes-warning.js">
+      <publishTime>10/17/2018 13:55:22</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/assets/js/ie10-viewport-bug-workaround.js">
+      <publishTime>10/17/2018 13:55:22</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/assets/js/ie8-responsive-file-warning.js">
+      <publishTime>10/17/2018 13:55:22</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/assets/js/jquery.min.js">
+      <publishTime>10/17/2018 13:55:22</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/assets/js/sidenav.js">
+      <publishTime>10/17/2018 13:55:22</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/data/data1/demo.response.json">
+      <publishTime>10/17/2018 13:55:23</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/data/data2/demo.response.json">
+      <publishTime>10/17/2018 13:55:23</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/data/data3/demo.response.json">
+      <publishTime>10/17/2018 13:55:23</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/data/data4/demo.response.json">
+      <publishTime>10/17/2018 13:55:23</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/data/data5/demo.response.json">
+      <publishTime>10/17/2018 13:55:23</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/data/extensions.json">
+      <publishTime>10/17/2018 13:55:23</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/data/README.md">
+      <publishTime>10/17/2018 13:55:23</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/bootstrap-table-locale-all.js">
+      <publishTime>10/17/2018 13:55:23</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/bootstrap-table-locale-all.min.js">
+      <publishTime>10/17/2018 13:55:23</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/bootstrap-table.css">
+      <publishTime>10/17/2018 13:55:23</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/bootstrap-table.js">
+      <publishTime>10/17/2018 13:55:23</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/bootstrap-table.min.css">
+      <publishTime>10/17/2018 13:55:23</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/bootstrap-table.min.js">
+      <publishTime>10/17/2018 13:55:23</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/extensions/accent-neutralise/bootstrap-table-accent-neutralise.js">
+      <publishTime>10/17/2018 13:55:23</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/extensions/accent-neutralise/bootstrap-table-accent-neutralise.min.js">
+      <publishTime>10/17/2018 13:55:23</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/extensions/angular/bootstrap-table-angular.js">
+      <publishTime>10/17/2018 13:55:23</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/extensions/angular/bootstrap-table-angular.min.js">
+      <publishTime>10/17/2018 13:55:23</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/extensions/auto-refresh/bootstrap-table-auto-refresh.css">
+      <publishTime>10/17/2018 13:55:23</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/extensions/auto-refresh/bootstrap-table-auto-refresh.js">
+      <publishTime>10/17/2018 13:55:23</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/extensions/auto-refresh/bootstrap-table-auto-refresh.min.js">
+      <publishTime>10/17/2018 13:55:23</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/extensions/click-edit-row/bootstrap-table-click-edit-row.css">
+      <publishTime>10/17/2018 13:55:23</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/extensions/click-edit-row/bootstrap-table-click-edit-row.js">
+      <publishTime>10/17/2018 13:55:23</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/extensions/click-edit-row/bootstrap-table-click-edit-row.min.js">
+      <publishTime>10/17/2018 13:55:23</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/extensions/cookie/bootstrap-table-cookie.js">
+      <publishTime>10/17/2018 13:55:23</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/extensions/cookie/bootstrap-table-cookie.min.js">
+      <publishTime>10/17/2018 13:55:23</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/extensions/copy-rows/bootstrap-table-copy-rows.js">
+      <publishTime>10/17/2018 13:55:23</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/extensions/copy-rows/bootstrap-table-copy-rows.min.js">
+      <publishTime>10/17/2018 13:55:23</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/extensions/defer-url/bootstrap-table-defer-url.js">
+      <publishTime>10/17/2018 13:55:23</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/extensions/defer-url/bootstrap-table-defer-url.min.js">
+      <publishTime>10/17/2018 13:55:23</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/extensions/editable/bootstrap-table-editable.js">
+      <publishTime>10/17/2018 13:55:23</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/extensions/editable/bootstrap-table-editable.min.js">
+      <publishTime>10/17/2018 13:55:23</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/extensions/export/bootstrap-table-export.js">
+      <publishTime>10/17/2018 13:55:23</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/extensions/export/bootstrap-table-export.min.js">
+      <publishTime>10/17/2018 13:55:23</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/extensions/filter-control/bootstrap-table-filter-control.css">
+      <publishTime>10/17/2018 13:55:23</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/extensions/filter-control/bootstrap-table-filter-control.js">
+      <publishTime>10/17/2018 13:55:23</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/extensions/filter-control/bootstrap-table-filter-control.min.js">
+      <publishTime>10/17/2018 13:55:23</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/extensions/filter/bootstrap-table-filter.js">
+      <publishTime>10/17/2018 13:55:23</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/extensions/filter/bootstrap-table-filter.min.js">
+      <publishTime>10/17/2018 13:55:23</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/extensions/flat-json/bootstrap-table-flat-json.js">
+      <publishTime>10/17/2018 13:55:23</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/extensions/flat-json/bootstrap-table-flat-json.min.js">
+      <publishTime>10/17/2018 13:55:23</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/extensions/group-by-v2/bootstrap-table-group-by.css">
+      <publishTime>10/17/2018 13:55:23</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/extensions/group-by-v2/bootstrap-table-group-by.js">
+      <publishTime>10/17/2018 13:55:23</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/extensions/group-by-v2/bootstrap-table-group-by.min.js">
+      <publishTime>10/17/2018 13:55:23</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/extensions/group-by/bootstrap-table-group-by.css">
+      <publishTime>10/17/2018 13:55:23</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/extensions/group-by/bootstrap-table-group-by.js">
+      <publishTime>10/17/2018 13:55:23</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/extensions/group-by/bootstrap-table-group-by.min.js">
+      <publishTime>10/17/2018 13:55:23</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/extensions/i18n-enhance/bootstrap-table-i18n-enhance.js">
+      <publishTime>10/17/2018 13:55:23</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/extensions/i18n-enhance/bootstrap-table-i18n-enhance.min.js">
+      <publishTime>10/17/2018 13:55:23</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/extensions/key-events/bootstrap-table-key-events.js">
+      <publishTime>10/17/2018 13:55:23</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/extensions/key-events/bootstrap-table-key-events.min.js">
+      <publishTime>10/17/2018 13:55:23</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/extensions/mobile/bootstrap-table-mobile.js">
+      <publishTime>10/17/2018 13:55:23</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/extensions/mobile/bootstrap-table-mobile.min.js">
+      <publishTime>10/17/2018 13:55:23</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/extensions/multi-column-toggle/bootstrap-table-multi-toggle.js">
+      <publishTime>10/17/2018 13:55:23</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/extensions/multi-column-toggle/bootstrap-table-multi-toggle.min.js">
+      <publishTime>10/17/2018 13:55:23</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/extensions/multiple-search/bootstrap-table-multiple-search.js">
+      <publishTime>10/17/2018 13:55:23</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/extensions/multiple-search/bootstrap-table-multiple-search.min.js">
+      <publishTime>10/17/2018 13:55:23</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/extensions/multiple-selection-row/bootstrap-table-multiple-selection-row.css">
+      <publishTime>10/17/2018 13:55:23</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/extensions/multiple-selection-row/bootstrap-table-multiple-selection-row.js">
+      <publishTime>10/17/2018 13:55:23</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/extensions/multiple-selection-row/bootstrap-table-multiple-selection-row.min.js">
+      <publishTime>10/17/2018 13:55:23</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/extensions/multiple-sort/bootstrap-table-multiple-sort.js">
+      <publishTime>10/17/2018 13:55:23</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/extensions/multiple-sort/bootstrap-table-multiple-sort.min.js">
+      <publishTime>10/17/2018 13:55:23</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/extensions/natural-sorting/bootstrap-table-natural-sorting.js">
+      <publishTime>10/17/2018 13:55:23</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/extensions/natural-sorting/bootstrap-table-natural-sorting.min.js">
+      <publishTime>10/17/2018 13:55:23</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/extensions/page-jumpto/bootstrap-table-jumpto.css">
+      <publishTime>10/17/2018 13:55:23</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/extensions/page-jumpto/bootstrap-table-jumpto.js">
+      <publishTime>10/17/2018 13:55:23</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/extensions/page-jumpto/bootstrap-table-jumpto.min.js">
+      <publishTime>10/17/2018 13:55:23</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/extensions/print/bootstrap-table-print.js">
+      <publishTime>10/17/2018 13:55:23</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/extensions/print/bootstrap-table-print.min.js">
+      <publishTime>10/17/2018 13:55:24</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/extensions/reorder-columns/bootstrap-table-reorder-columns.js">
+      <publishTime>10/17/2018 13:55:24</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/extensions/reorder-columns/bootstrap-table-reorder-columns.min.js">
+      <publishTime>10/17/2018 13:55:24</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/extensions/reorder-rows/bootstrap-table-reorder-rows.css">
+      <publishTime>10/17/2018 13:55:24</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/extensions/reorder-rows/bootstrap-table-reorder-rows.js">
+      <publishTime>10/17/2018 13:55:24</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/extensions/reorder-rows/bootstrap-table-reorder-rows.min.js">
+      <publishTime>10/17/2018 13:55:24</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/extensions/resizable/bootstrap-table-resizable.js">
+      <publishTime>10/17/2018 13:55:24</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/extensions/resizable/bootstrap-table-resizable.min.js">
+      <publishTime>10/17/2018 13:55:24</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/extensions/select2-filter/bootstrap-table-select2-filter.js">
+      <publishTime>10/17/2018 13:55:24</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/extensions/select2-filter/bootstrap-table-select2-filter.min.js">
+      <publishTime>10/17/2018 13:55:24</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/extensions/sticky-header/bootstrap-table-sticky-header.css">
+      <publishTime>10/17/2018 13:55:24</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/extensions/sticky-header/bootstrap-table-sticky-header.js">
+      <publishTime>10/17/2018 13:55:24</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/extensions/sticky-header/bootstrap-table-sticky-header.min.js">
+      <publishTime>10/17/2018 13:55:24</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/extensions/toolbar/bootstrap-table-toolbar.js">
+      <publishTime>10/17/2018 13:55:24</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/extensions/toolbar/bootstrap-table-toolbar.min.js">
+      <publishTime>10/17/2018 13:55:24</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/extensions/tree-column/bootstrap-table-tree-column.css">
+      <publishTime>10/17/2018 13:55:24</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/extensions/tree-column/bootstrap-table-tree-column.js">
+      <publishTime>10/17/2018 13:55:24</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/extensions/tree-column/bootstrap-table-tree-column.min.js">
+      <publishTime>10/17/2018 13:55:24</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/extensions/treegrid/bootstrap-table-treegrid.js">
+      <publishTime>10/17/2018 13:55:24</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/extensions/treegrid/bootstrap-table-treegrid.min.js">
+      <publishTime>10/17/2018 13:55:24</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/locale/bootstrap-table-af-ZA.js">
+      <publishTime>10/17/2018 13:55:24</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/locale/bootstrap-table-af-ZA.min.js">
+      <publishTime>10/17/2018 13:55:24</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/locale/bootstrap-table-ar-SA.js">
+      <publishTime>10/17/2018 13:55:24</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/locale/bootstrap-table-ar-SA.min.js">
+      <publishTime>10/17/2018 13:55:24</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/locale/bootstrap-table-ca-ES.js">
+      <publishTime>10/17/2018 13:55:24</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/locale/bootstrap-table-ca-ES.min.js">
+      <publishTime>10/17/2018 13:55:24</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/locale/bootstrap-table-cs-CZ.js">
+      <publishTime>10/17/2018 13:55:24</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/locale/bootstrap-table-cs-CZ.min.js">
+      <publishTime>10/17/2018 13:55:24</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/locale/bootstrap-table-da-DK.js">
+      <publishTime>10/17/2018 13:55:24</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/locale/bootstrap-table-da-DK.min.js">
+      <publishTime>10/17/2018 13:55:24</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/locale/bootstrap-table-de-DE.js">
+      <publishTime>10/17/2018 13:55:24</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/locale/bootstrap-table-de-DE.min.js">
+      <publishTime>10/17/2018 13:55:24</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/locale/bootstrap-table-el-GR.js">
+      <publishTime>10/17/2018 13:55:24</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/locale/bootstrap-table-el-GR.min.js">
+      <publishTime>10/17/2018 13:55:24</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/locale/bootstrap-table-en-US.js">
+      <publishTime>10/17/2018 13:55:24</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/locale/bootstrap-table-en-US.min.js">
+      <publishTime>10/17/2018 13:55:24</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/locale/bootstrap-table-es-AR.js">
+      <publishTime>10/17/2018 13:55:24</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/locale/bootstrap-table-es-AR.min.js">
+      <publishTime>10/17/2018 13:55:24</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/locale/bootstrap-table-es-CL.js">
+      <publishTime>10/17/2018 13:55:24</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/locale/bootstrap-table-es-CL.min.js">
+      <publishTime>10/17/2018 13:55:24</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/locale/bootstrap-table-es-CR.js">
+      <publishTime>10/17/2018 13:55:24</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/locale/bootstrap-table-es-CR.min.js">
+      <publishTime>10/17/2018 13:55:24</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/locale/bootstrap-table-es-ES.js">
+      <publishTime>10/17/2018 13:55:24</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/locale/bootstrap-table-es-ES.min.js">
+      <publishTime>10/17/2018 13:55:24</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/locale/bootstrap-table-es-MX.js">
+      <publishTime>10/17/2018 13:55:24</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/locale/bootstrap-table-es-MX.min.js">
+      <publishTime>10/17/2018 13:55:24</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/locale/bootstrap-table-es-NI.js">
+      <publishTime>10/17/2018 13:55:24</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/locale/bootstrap-table-es-NI.min.js">
+      <publishTime>10/17/2018 13:55:24</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/locale/bootstrap-table-es-SP.js">
+      <publishTime>10/17/2018 13:55:24</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/locale/bootstrap-table-es-SP.min.js">
+      <publishTime>10/17/2018 13:55:24</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/locale/bootstrap-table-et-EE.js">
+      <publishTime>10/17/2018 13:55:24</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/locale/bootstrap-table-et-EE.min.js">
+      <publishTime>10/17/2018 13:55:24</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/locale/bootstrap-table-eu-EU.js">
+      <publishTime>10/17/2018 13:55:24</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/locale/bootstrap-table-eu-EU.min.js">
+      <publishTime>10/17/2018 13:55:24</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/locale/bootstrap-table-fa-IR.js">
+      <publishTime>10/17/2018 13:55:24</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/locale/bootstrap-table-fa-IR.min.js">
+      <publishTime>10/17/2018 13:55:24</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/locale/bootstrap-table-fr-BE.js">
+      <publishTime>10/17/2018 13:55:24</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/locale/bootstrap-table-fr-BE.min.js">
+      <publishTime>10/17/2018 13:55:24</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/locale/bootstrap-table-fr-FR.js">
+      <publishTime>10/17/2018 13:55:24</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/locale/bootstrap-table-fr-FR.min.js">
+      <publishTime>10/17/2018 13:55:24</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/locale/bootstrap-table-he-IL.js">
+      <publishTime>10/17/2018 13:55:24</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/locale/bootstrap-table-he-IL.min.js">
+      <publishTime>10/17/2018 13:55:24</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/locale/bootstrap-table-hr-HR.js">
+      <publishTime>10/17/2018 13:55:24</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/locale/bootstrap-table-hr-HR.min.js">
+      <publishTime>10/17/2018 13:55:24</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/locale/bootstrap-table-hu-HU.js">
+      <publishTime>10/17/2018 13:55:24</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/locale/bootstrap-table-hu-HU.min.js">
+      <publishTime>10/17/2018 13:55:24</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/locale/bootstrap-table-id-ID.js">
+      <publishTime>10/17/2018 13:55:24</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/locale/bootstrap-table-id-ID.min.js">
+      <publishTime>10/17/2018 13:55:24</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/locale/bootstrap-table-it-IT.js">
+      <publishTime>10/17/2018 13:55:24</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/locale/bootstrap-table-it-IT.min.js">
+      <publishTime>10/17/2018 13:55:24</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/locale/bootstrap-table-ja-JP.js">
+      <publishTime>10/17/2018 13:55:24</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/locale/bootstrap-table-ja-JP.min.js">
+      <publishTime>10/17/2018 13:55:24</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/locale/bootstrap-table-ka-GE.js">
+      <publishTime>10/17/2018 13:55:24</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/locale/bootstrap-table-ka-GE.min.js">
+      <publishTime>10/17/2018 13:55:24</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/locale/bootstrap-table-ko-KR.js">
+      <publishTime>10/17/2018 13:55:24</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/locale/bootstrap-table-ko-KR.min.js">
+      <publishTime>10/17/2018 13:55:24</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/locale/bootstrap-table-ms-MY.js">
+      <publishTime>10/17/2018 13:55:24</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/locale/bootstrap-table-ms-MY.min.js">
+      <publishTime>10/17/2018 13:55:24</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/locale/bootstrap-table-nb-NO.js">
+      <publishTime>10/17/2018 13:55:24</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/locale/bootstrap-table-nb-NO.min.js">
+      <publishTime>10/17/2018 13:55:24</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/locale/bootstrap-table-nl-NL.js">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/locale/bootstrap-table-nl-NL.min.js">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/locale/bootstrap-table-pl-PL.js">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/locale/bootstrap-table-pl-PL.min.js">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/locale/bootstrap-table-pt-BR.js">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/locale/bootstrap-table-pt-BR.min.js">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/locale/bootstrap-table-pt-PT.js">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/locale/bootstrap-table-pt-PT.min.js">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/locale/bootstrap-table-ro-RO.js">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/locale/bootstrap-table-ro-RO.min.js">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/locale/bootstrap-table-ru-RU.js">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/locale/bootstrap-table-ru-RU.min.js">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/locale/bootstrap-table-sk-SK.js">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/locale/bootstrap-table-sk-SK.min.js">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/locale/bootstrap-table-sv-SE.js">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/locale/bootstrap-table-sv-SE.min.js">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/locale/bootstrap-table-th-TH.js">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/locale/bootstrap-table-th-TH.min.js">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/locale/bootstrap-table-tr-TR.js">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/locale/bootstrap-table-tr-TR.min.js">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/locale/bootstrap-table-uk-UA.js">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/locale/bootstrap-table-uk-UA.min.js">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/locale/bootstrap-table-ur-PK.js">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/locale/bootstrap-table-ur-PK.min.js">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/locale/bootstrap-table-uz-Latn-UZ.js">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/locale/bootstrap-table-uz-Latn-UZ.min.js">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/locale/bootstrap-table-vi-VN.js">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/locale/bootstrap-table-vi-VN.min.js">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/locale/bootstrap-table-zh-CN.js">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/locale/bootstrap-table-zh-CN.min.js">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/locale/bootstrap-table-zh-TW.js">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/dist/locale/bootstrap-table-zh-TW.min.js">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/documentation.md">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/donate.md">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/examples.md">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/extensions.md">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/faq.md">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/favicon.ico">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/getting-started.md">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/index.md">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/LICENSE">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/README.md">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/robots.txt">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/sitemap.xml">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/_i18n/en.yml">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/_i18n/en/documentation/column-options.md">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/_i18n/en/documentation/events.md">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/_i18n/en/documentation/localizations.md">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/_i18n/en/documentation/methods.md">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/_i18n/en/documentation/table-options.md">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/_i18n/en/donate.md">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/_i18n/en/faq/faq.md">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/_i18n/en/footer.html">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/_i18n/en/getting-started/download.md">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/_i18n/en/getting-started/grunt.md">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/_i18n/en/getting-started/usage.md">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/_i18n/en/getting-started/whats-include.md">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/_i18n/en/home/feature.md">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/_i18n/es.yml">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/_i18n/es/documentation/column-options.md">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/_i18n/es/documentation/events.md">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/_i18n/es/documentation/localizations.md">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/_i18n/es/documentation/methods.md">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/_i18n/es/documentation/table-options.md">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/_i18n/es/donate.md">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/_i18n/es/faq/faq.md">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/_i18n/es/footer.html">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/_i18n/es/getting-started/download.md">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/_i18n/es/getting-started/grunt.md">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/_i18n/es/getting-started/usage.md">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/_i18n/es/getting-started/whats-include.md">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/_i18n/es/home/feature.md">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/_i18n/zh-cn.yml">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/_i18n/zh-cn/documentation/column-options.md">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/_i18n/zh-cn/documentation/events.md">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/_i18n/zh-cn/documentation/localizations.md">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/_i18n/zh-cn/documentation/methods.md">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/_i18n/zh-cn/documentation/table-options.md">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/_i18n/zh-cn/donate.md">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/_i18n/zh-cn/faq/faq.md">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/_i18n/zh-cn/footer.html">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/_i18n/zh-cn/getting-started/download.md">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/_i18n/zh-cn/getting-started/grunt.md">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/_i18n/zh-cn/getting-started/usage.md">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/_i18n/zh-cn/getting-started/whats-include.md">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/_i18n/zh-cn/home/feature.md">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/_includes/footer.html">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/_includes/header.html">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/_includes/latest-release.md">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/_includes/nav.html">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/_includes/social-buttons.html">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/_layouts/default.html">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/_layouts/home.html">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/_plugins/markdown-tag.rb">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/docs/_plugins/multiple-languages.rb">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/DONATORS.md">
+      <publishTime>10/17/2018 13:55:25</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/Gruntfile.js">
+      <publishTime>10/17/2018 13:55:26</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/LICENSE">
+      <publishTime>10/17/2018 13:55:26</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/package.json">
+      <publishTime>10/17/2018 13:55:26</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/README.md">
+      <publishTime>10/17/2018 13:55:27</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/bootstrap-table.css">
+      <publishTime>10/17/2018 13:55:27</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/bootstrap-table.js">
+      <publishTime>10/17/2018 13:55:27</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/accent-neutralise/bootstrap-table-accent-neutralise.js">
+      <publishTime>10/17/2018 13:55:27</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/accent-neutralise/extension.json">
+      <publishTime>10/17/2018 13:55:27</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/accent-neutralise/README.md">
+      <publishTime>10/17/2018 13:55:27</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/angular/bootstrap-table-angular.js">
+      <publishTime>10/17/2018 13:55:27</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/auto-refresh/bootstrap-table-auto-refresh.css">
+      <publishTime>10/17/2018 13:55:27</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/auto-refresh/bootstrap-table-auto-refresh.js">
+      <publishTime>10/17/2018 13:55:27</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/auto-refresh/extension.json">
+      <publishTime>10/17/2018 13:55:27</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/auto-refresh/README.md">
+      <publishTime>10/17/2018 13:55:27</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/click-edit-row/bootstrap-table-click-edit-row.css">
+      <publishTime>10/17/2018 13:55:27</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/click-edit-row/bootstrap-table-click-edit-row.js">
+      <publishTime>10/17/2018 13:55:27</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/click-edit-row/README.md">
+      <publishTime>10/17/2018 13:55:27</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/cookie/bootstrap-table-cookie.js">
+      <publishTime>10/17/2018 13:55:27</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/cookie/extension.json">
+      <publishTime>10/17/2018 13:55:27</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/cookie/README.md">
+      <publishTime>10/17/2018 13:55:27</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/copy-rows/bootstrap-table-copy-rows.js">
+      <publishTime>10/17/2018 13:55:27</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/copy-rows/extension.json">
+      <publishTime>10/17/2018 13:55:27</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/copy-rows/README.md">
+      <publishTime>10/17/2018 13:55:27</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/defer-url/bootstrap-table-defer-url.js">
+      <publishTime>10/17/2018 13:55:27</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/defer-url/extension.json">
+      <publishTime>10/17/2018 13:55:27</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/defer-url/README.md">
+      <publishTime>10/17/2018 13:55:27</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/editable/bootstrap-table-editable.js">
+      <publishTime>10/17/2018 13:55:27</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/editable/extension.json">
+      <publishTime>10/17/2018 13:55:27</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/editable/README.md">
+      <publishTime>10/17/2018 13:55:27</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/export/bootstrap-table-export.js">
+      <publishTime>10/17/2018 13:55:27</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/export/extension.json">
+      <publishTime>10/17/2018 13:55:27</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/export/README.md">
+      <publishTime>10/17/2018 13:55:27</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/filter-control/bootstrap-table-filter-control.css">
+      <publishTime>10/17/2018 13:55:27</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/filter-control/bootstrap-table-filter-control.js">
+      <publishTime>10/17/2018 13:55:27</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/filter-control/extension.json">
+      <publishTime>10/17/2018 13:55:27</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/filter-control/README.md">
+      <publishTime>10/17/2018 13:55:27</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/filter/bootstrap-table-filter.js">
+      <publishTime>10/17/2018 13:55:27</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/filter/extension.json">
+      <publishTime>10/17/2018 13:55:27</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/filter/README.md">
+      <publishTime>10/17/2018 13:55:27</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/flat-json/bootstrap-table-flat-json.js">
+      <publishTime>10/17/2018 13:55:27</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/flat-json/extension.json">
+      <publishTime>10/17/2018 13:55:27</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/flat-json/README.md">
+      <publishTime>10/17/2018 13:55:27</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/group-by-v2/bootstrap-table-group-by.css">
+      <publishTime>10/17/2018 13:55:27</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/group-by-v2/bootstrap-table-group-by.js">
+      <publishTime>10/17/2018 13:55:27</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/group-by-v2/extension.json">
+      <publishTime>10/17/2018 13:55:27</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/group-by-v2/README.md">
+      <publishTime>10/17/2018 13:55:27</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/group-by/bootstrap-table-group-by.css">
+      <publishTime>10/17/2018 13:55:27</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/group-by/bootstrap-table-group-by.js">
+      <publishTime>10/17/2018 13:55:27</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/group-by/extension.json">
+      <publishTime>10/17/2018 13:55:27</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/group-by/README.md">
+      <publishTime>10/17/2018 13:55:27</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/i18n-enhance/bootstrap-table-i18n-enhance.js">
+      <publishTime>10/17/2018 13:55:27</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/i18n-enhance/extension.json">
+      <publishTime>10/17/2018 13:55:27</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/i18n-enhance/README.md">
+      <publishTime>10/17/2018 13:55:27</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/key-events/bootstrap-table-key-events.js">
+      <publishTime>10/17/2018 13:55:27</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/key-events/extension.json">
+      <publishTime>10/17/2018 13:55:27</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/key-events/README.md">
+      <publishTime>10/17/2018 13:55:27</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/mobile/bootstrap-table-mobile.js">
+      <publishTime>10/17/2018 13:55:27</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/mobile/extension.json">
+      <publishTime>10/17/2018 13:55:27</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/mobile/README.md">
+      <publishTime>10/17/2018 13:55:27</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/multi-column-toggle/bootstrap-table-multi-toggle.js">
+      <publishTime>10/17/2018 13:55:27</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/multi-column-toggle/extension.json">
+      <publishTime>10/17/2018 13:55:27</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/multi-column-toggle/README.md">
+      <publishTime>10/17/2018 13:55:27</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/multiple-search/bootstrap-table-multiple-search.js">
+      <publishTime>10/17/2018 13:55:27</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/multiple-search/extension.json">
+      <publishTime>10/17/2018 13:55:27</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/multiple-search/README.md">
+      <publishTime>10/17/2018 13:55:27</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/multiple-selection-row/bootstrap-table-multiple-selection-row.css">
+      <publishTime>10/17/2018 13:55:27</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/multiple-selection-row/bootstrap-table-multiple-selection-row.js">
+      <publishTime>10/17/2018 13:55:27</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/multiple-selection-row/extension.json">
+      <publishTime>10/17/2018 13:55:27</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/multiple-selection-row/README.md">
+      <publishTime>10/17/2018 13:55:27</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/multiple-sort/bootstrap-table-multiple-sort.js">
+      <publishTime>10/17/2018 13:55:27</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/multiple-sort/extension.json">
+      <publishTime>10/17/2018 13:55:27</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/multiple-sort/README.md">
+      <publishTime>10/17/2018 13:55:27</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/natural-sorting/bootstrap-table-natural-sorting.js">
+      <publishTime>10/17/2018 13:55:28</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/natural-sorting/extension.json">
+      <publishTime>10/17/2018 13:55:28</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/natural-sorting/README.md">
+      <publishTime>10/17/2018 13:55:28</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/page-jumpto/bootstrap-table-jumpto.css">
+      <publishTime>10/17/2018 13:55:28</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/page-jumpto/bootstrap-table-jumpto.js">
+      <publishTime>10/17/2018 13:55:28</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/page-jumpto/README.md">
+      <publishTime>10/17/2018 13:55:28</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/print/bootstrap-table-print.js">
+      <publishTime>10/17/2018 13:55:28</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/print/README.md">
+      <publishTime>10/17/2018 13:55:28</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/reorder-columns/bootstrap-table-reorder-columns.js">
+      <publishTime>10/17/2018 13:55:28</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/reorder-columns/extension.json">
+      <publishTime>10/17/2018 13:55:28</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/reorder-columns/README.md">
+      <publishTime>10/17/2018 13:55:28</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/reorder-rows/bootstrap-table-reorder-rows.css">
+      <publishTime>10/17/2018 13:55:28</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/reorder-rows/bootstrap-table-reorder-rows.js">
+      <publishTime>10/17/2018 13:55:28</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/reorder-rows/extension.json">
+      <publishTime>10/17/2018 13:55:28</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/reorder-rows/README.md">
+      <publishTime>10/17/2018 13:55:28</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/resizable/bootstrap-table-resizable.js">
+      <publishTime>10/17/2018 13:55:28</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/resizable/extension.json">
+      <publishTime>10/17/2018 13:55:28</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/resizable/README.md">
+      <publishTime>10/17/2018 13:55:28</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/select2-filter/bootstrap-table-select2-filter.js">
+      <publishTime>10/17/2018 13:55:28</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/select2-filter/extension.json">
+      <publishTime>10/17/2018 13:55:28</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/select2-filter/README.md">
+      <publishTime>10/17/2018 13:55:28</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/sticky-header/bootstrap-table-sticky-header.css">
+      <publishTime>10/17/2018 13:55:28</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/sticky-header/bootstrap-table-sticky-header.js">
+      <publishTime>10/17/2018 13:55:28</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/sticky-header/extension.json">
+      <publishTime>10/17/2018 13:55:28</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/sticky-header/README.md">
+      <publishTime>10/17/2018 13:55:28</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/toolbar/bootstrap-table-toolbar.js">
+      <publishTime>10/17/2018 13:55:28</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/toolbar/extension.json">
+      <publishTime>10/17/2018 13:55:28</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/toolbar/README.md">
+      <publishTime>10/17/2018 13:55:28</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/tree-column/bootstrap-table-tree-column.css">
+      <publishTime>10/17/2018 13:55:28</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/tree-column/bootstrap-table-tree-column.js">
+      <publishTime>10/17/2018 13:55:28</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/tree-column/bootstrap-table-tree-column.less">
+      <publishTime>10/17/2018 13:55:28</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/tree-column/extension.json">
+      <publishTime>10/17/2018 13:55:28</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/tree-column/icon.png">
+      <publishTime>10/17/2018 13:55:28</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/treegrid/bootstrap-table-treegrid.js">
+      <publishTime>10/17/2018 13:55:28</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/treegrid/extension.json">
+      <publishTime>10/17/2018 13:55:28</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/extensions/treegrid/README.md">
+      <publishTime>10/17/2018 13:55:28</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/locale/bootstrap-table-af-ZA.js">
+      <publishTime>10/17/2018 13:55:28</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/locale/bootstrap-table-ar-SA.js">
+      <publishTime>10/17/2018 13:55:28</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/locale/bootstrap-table-ca-ES.js">
+      <publishTime>10/17/2018 13:55:28</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/locale/bootstrap-table-cs-CZ.js">
+      <publishTime>10/17/2018 13:55:28</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/locale/bootstrap-table-da-DK.js">
+      <publishTime>10/17/2018 13:55:28</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/locale/bootstrap-table-de-DE.js">
+      <publishTime>10/17/2018 13:55:28</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/locale/bootstrap-table-el-GR.js">
+      <publishTime>10/17/2018 13:55:28</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/locale/bootstrap-table-en-US.js">
+      <publishTime>10/17/2018 13:55:28</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/locale/bootstrap-table-en-US.js.template">
+      <publishTime>10/17/2018 13:55:28</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/locale/bootstrap-table-es-AR.js">
+      <publishTime>10/17/2018 13:55:28</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/locale/bootstrap-table-es-CL.js">
+      <publishTime>10/17/2018 13:55:28</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/locale/bootstrap-table-es-CR.js">
+      <publishTime>10/17/2018 13:55:28</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/locale/bootstrap-table-es-ES.js">
+      <publishTime>10/17/2018 13:55:28</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/locale/bootstrap-table-es-MX.js">
+      <publishTime>10/17/2018 13:55:28</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/locale/bootstrap-table-es-NI.js">
+      <publishTime>10/17/2018 13:55:28</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/locale/bootstrap-table-es-SP.js">
+      <publishTime>10/17/2018 13:55:28</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/locale/bootstrap-table-et-EE.js">
+      <publishTime>10/17/2018 13:55:28</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/locale/bootstrap-table-eu-EU.js">
+      <publishTime>10/17/2018 13:55:28</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/locale/bootstrap-table-fa-IR.js">
+      <publishTime>10/17/2018 13:55:28</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/locale/bootstrap-table-fr-BE.js">
+      <publishTime>10/17/2018 13:55:28</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/locale/bootstrap-table-fr-FR.js">
+      <publishTime>10/17/2018 13:55:28</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/locale/bootstrap-table-he-IL.js">
+      <publishTime>10/17/2018 13:55:28</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/locale/bootstrap-table-hr-HR.js">
+      <publishTime>10/17/2018 13:55:28</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/locale/bootstrap-table-hu-HU.js">
+      <publishTime>10/17/2018 13:55:28</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/locale/bootstrap-table-id-ID.js">
+      <publishTime>10/17/2018 13:55:28</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/locale/bootstrap-table-it-IT.js">
+      <publishTime>10/17/2018 13:55:28</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/locale/bootstrap-table-ja-JP.js">
+      <publishTime>10/17/2018 13:55:28</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/locale/bootstrap-table-ka-GE.js">
+      <publishTime>10/17/2018 13:55:28</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/locale/bootstrap-table-ko-KR.js">
+      <publishTime>10/17/2018 13:55:28</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/locale/bootstrap-table-ms-MY.js">
+      <publishTime>10/17/2018 13:55:28</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/locale/bootstrap-table-nb-NO.js">
+      <publishTime>10/17/2018 13:55:28</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/locale/bootstrap-table-nl-NL.js">
+      <publishTime>10/17/2018 13:55:28</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/locale/bootstrap-table-pl-PL.js">
+      <publishTime>10/17/2018 13:55:28</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/locale/bootstrap-table-pt-BR.js">
+      <publishTime>10/17/2018 13:55:28</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/locale/bootstrap-table-pt-PT.js">
+      <publishTime>10/17/2018 13:55:28</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/locale/bootstrap-table-ro-RO.js">
+      <publishTime>10/17/2018 13:55:28</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/locale/bootstrap-table-ru-RU.js">
+      <publishTime>10/17/2018 13:55:28</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/locale/bootstrap-table-sk-SK.js">
+      <publishTime>10/17/2018 13:55:28</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/locale/bootstrap-table-sv-SE.js">
+      <publishTime>10/17/2018 13:55:28</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/locale/bootstrap-table-th-TH.js">
+      <publishTime>10/17/2018 13:55:28</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/locale/bootstrap-table-tr-TR.js">
+      <publishTime>10/17/2018 13:55:28</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/locale/bootstrap-table-uk-UA.js">
+      <publishTime>10/17/2018 13:55:28</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/locale/bootstrap-table-ur-PK.js">
+      <publishTime>10/17/2018 13:55:28</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/locale/bootstrap-table-uz-Latn-UZ.js">
+      <publishTime>10/17/2018 13:55:28</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/locale/bootstrap-table-vi-VN.js">
+      <publishTime>10/17/2018 13:55:28</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/locale/bootstrap-table-zh-CN.js">
+      <publishTime>10/17/2018 13:55:28</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/locale/bootstrap-table-zh-TW.js">
+      <publishTime>10/17/2018 13:55:28</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/src/locale/README.md">
+      <publishTime>10/17/2018 13:55:28</publishTime>
+    </File>
+    <File Include="bootstrap-table-master/bootstrap-table-master/_config.yml">
+      <publishTime>10/17/2018 13:55:28</publishTime>
+    </File>
+    <File Include="bootstrapModal/bootstrap.min.js">
+      <publishTime>10/16/2018 10:26:34</publishTime>
+    </File>
+    <File Include="bootstrapModal/jquery.min.js">
+      <publishTime>10/16/2018 10:03:14</publishTime>
+    </File>
+    <File Include="classLogin.css">
+      <publishTime>10/22/2018 15:47:19</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>10/23/2018 16:33:31</publishTime>
+    </File>
+    <File Include="jquery-3.3.1.min.js">
+      <publishTime>11/10/2018 09:08:50</publishTime>
+    </File>
+    <File Include="js/bootstrap.css">
+      <publishTime>10/17/2018 12:38:58</publishTime>
+    </File>
+    <File Include="js/jquery.dataTables.js">
+      <publishTime>10/17/2018 12:39:20</publishTime>
+    </File>
+    <File Include="js/jquery.dataTables.min.js">
+      <publishTime>10/17/2018 12:39:20</publishTime>
+    </File>
+    <File Include="js/modal.js">
+      <publishTime>10/17/2018 12:38:44</publishTime>
+    </File>
+    <File Include="Login.aspx">
+      <publishTime>10/23/2018 16:33:28</publishTime>
+    </File>
+    <File Include="Main.aspx">
+      <publishTime>10/17/2018 16:09:09</publishTime>
+    </File>
+    <File Include="MessageUsm.ascx">
+      <publishTime>10/17/2018 16:20:44</publishTime>
+    </File>
+    <File Include="Rapor.aspx">
+      <publishTime>10/23/2018 16:33:32</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>10/24/2018 09:55:44</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

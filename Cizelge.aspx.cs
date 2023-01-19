@@ -1,0 +1,575 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Data;
+using System.Data.SqlClient;
+using System.Globalization;
+using System.Linq;
+using System.Text;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+
+namespace cizelge
+{
+    public partial class Main : System.Web.UI.Page
+    {
+        command cmd = new command();
+
+        int yonetici = 0;
+        
+
+        protected void Page_Load(object sender, EventArgs e)
+        {
+            yonetici = Int16.Parse(Session["YONETICI"].ToString());
+
+            btnVazgec.Visible = false;
+            btnSil.Visible = false;
+            Button1.Visible = false;
+
+            MessageUsm.User_Btn_Update += new EventHandler(SetDelete_Click);
+
+            if (Page.IsPostBack)
+            {
+                //Sayfa postback olduğunda butonun tıklanıp tıklanmadıgının kontrolü
+                if (Request.Form["button"] != null)
+                {                    
+                    string btnValue = Request.Form["button"];
+                    hdnref.Value = btnValue.Substring(0, (btnValue.Length - btnValue.Length) + 1);
+                    hdnValue.Value = btnValue.Substring(1, btnValue.Length - 1);
+
+                    //Güncelle butonuna tıklandıysa
+                    if (hdnref.Value == "1")
+                    {
+                        veriGetir_();
+                        setKisiGetir();
+                        btnVazgec.Visible = true;
+                        btnSil.Visible = true;
+
+                        if (yonetici == 1)
+                        {
+                            Button1.Visible = true;
+                        }
+
+                        else
+                        {
+                            Button1.Visible = false;
+                        }                       
+                    }
+                }
+
+                else { }
+            }
+            //Sayfa postback olmadıysa
+            if (!IsPostBack)
+            {
+                setDropList();
+                getPersonel();
+                dateTarihBas.Value = DateTime.Now.ToString("dd-MM-yyyy");
+                dateTarihBit.Value = DateTime.Now.ToString("dd-MM-yyyy");
+                setTarihGetir();
+            }
+        }
+        #region Degiskenler
+        DateTime haftaBas = DateTime.Now;
+        DateTime haftaBit = DateTime.Now;
+
+        public int kontrol;
+
+        #endregion
+
+        #region Kaydet_
+        //Veri kaydetme metodu
+        private void Kaydet_()
+        {
+            try
+            {
+                string sorgu = "";               
+
+                DateTime baslangicSaati = DateTime.Parse(dateTarihBas.Value + " " + DrpBas.SelectedValue.ToString());
+                DateTime bitisSaati = DateTime.Parse(dateTarihBit.Value + " " + DrpBit.SelectedValue.ToString());
+
+                //Ekleme işlemi
+                if (hdnValue.Value == "")
+                {
+                    //Alanlar boş değilse
+                    if ((dateTarihBas.Value != "") && (dateTarihBit.Value != "") && (TxtYapilan.Text != "") && (DrpBas.SelectedValue != null) && (DrpBit.SelectedValue != null))
+                    {
+                        //başlangıç saati , bitiş saatinden küçükse
+                        if (baslangicSaati < bitisSaati)
+                        {
+                            //sorgu = "INSERT INTO ArizaTakip.dbo.CZ_IS (YAPILAN_IS,BASLANGIC_SAAT,BITIS_SAAT,KAYIT_TARIHI,PERSONEL_ID) VALUES ('" + TxtYapilan.Text + "' , CONVERT(DATETIME,'" + baslangicSaati + "',104) , CONVERT(DATETIME,'" + bitisSaati + "',104), '" + DateTime.Now.ToString("yyyy-MM-dd") + "', '" + DrpPersonel.SelectedValue + "')";
+
+                            sorgu = "INSERT INTO CIZELGE.dbo.CZ_IS (YAPILAN_IS,BASLANGIC_SAAT,BITIS_SAAT,KAYIT_TARIHI,PERSONEL_ID) VALUES ('" + TxtYapilan.Text + "' , CONVERT(DATETIME,'" + baslangicSaati + "',104) , CONVERT(DATETIME,'" + bitisSaati + "',104), '" + DateTime.Now.ToString("yyyy-MM-dd") + "', '" + DrpPersonel.SelectedValue + "')";
+
+                            setTarihGetir();
+
+                            DrpBas.SelectedValue = "00:00";
+                            DrpBit.SelectedValue = "00:00";
+                            TxtYapilan.Text = "";
+                            hdnValue.Value = "";
+                            hdnref.Value = "";
+
+                            kontrol = 0;
+                        }
+                    }
+                }
+                //Güncelleme işlemi
+                else
+                {
+                    //Alanlar boş değilse
+                    if ((dateTarihBas.Value != "") && (dateTarihBit.Value != "") && (TxtYapilan.Text != "") && (DrpBas.SelectedValue != null) && (DrpBit.SelectedValue != null))
+                    {
+                        //başlangıç saati , bitiş saatinden küçükse
+                        if (baslangicSaati < bitisSaati)
+                        {
+                            //sorgu = "UPDATE ArizaTakip.dbo.CZ_IS  SET YAPILAN_IS='" + TxtYapilan.Text + "',BASLANGIC_SAAT= CONVERT(DATETIME,'" + baslangicSaati + "',104) ,BITIS_SAAT=CONVERT(DATETIME,'" + bitisSaati + "',104) WHERE ID= '" + hdnValue.Value + "'";
+
+                            sorgu = "UPDATE CIZELGE.dbo.CZ_IS  SET YAPILAN_IS='" + TxtYapilan.Text + "',BASLANGIC_SAAT= CONVERT(DATETIME,'" + baslangicSaati + "',104) ,BITIS_SAAT=CONVERT(DATETIME,'" + bitisSaati + "',104) WHERE ID= '" + hdnValue.Value + "'";
+
+                            DrpBas.SelectedValue = "00:00";
+                            DrpBit.SelectedValue = "00:00";
+                            TxtYapilan.Text = "";
+                            hdnValue.Value = "";
+                            hdnref.Value = "";
+
+                            kontrol = 1;
+                        }
+                    }
+                }
+
+                bool result = cmd.returnKomut(sorgu);
+                //işlem başarılıysa
+                if (result == true)
+                {
+                    //kayıt eklendi
+                    if (kontrol == 0)
+                    {
+                        ClientScript.RegisterStartupScript(this.GetType(), "alert", "mymodalu()", true);
+                        this.LblMessage.Text = "Kayıt Eklendi";
+                        LblMessage.ForeColor = System.Drawing.Color.Green;
+                    }
+                    //kayıt eklenemedi
+                    else
+                    {
+                        ClientScript.RegisterStartupScript(this.GetType(), "alert", "mymodalu()", true);
+                        this.LblMessage.Text = "Kayıt Güncellendi";
+                        LblMessage.ForeColor = System.Drawing.Color.Green;
+                    }
+                }
+                //İşlem başarılı değilse
+                else
+                {
+                    //kayıt güncellendi
+                    if (kontrol == 0)
+                    {
+                        ClientScript.RegisterStartupScript(this.GetType(), "alert", "mymodalu();", true);
+                        this.LblMessage.Text = "Kayıt Eklenemedi. Lütfen Alan Bilgilerini Kontrol Ediniz";
+                        LblMessage.ForeColor = System.Drawing.Color.Red;
+                    }
+                    //kayıt güncellenemedi
+                    else
+                    {
+                        ClientScript.RegisterStartupScript(this.GetType(), "alert", "mymodalu();", true);
+                        this.LblMessage.Text = "Kayıt Güncellenemedi. Lütfen Alan Bilgilerini Kontrol Ediniz";
+                        LblMessage.ForeColor = System.Drawing.Color.Red;
+                    }
+                }
+                //Sayfa postback değilse
+                if (!IsPostBack)
+                {
+                    setTarihGetir();
+                }
+
+                setKisiGetir();
+            }
+
+            catch (Exception)
+            {
+            }
+        }
+        #endregion
+        //Personelleri getir
+        private void getPersonel()
+        {
+            string sorgu;
+            yonetici =Int16.Parse(Session["YONETICI"].ToString());
+            //Giriş yapan yönetici değilse
+            if (yonetici == 0)
+            {
+                sorgu = "select ID,AD from CIZELGE.dbo.CZ_PERSONEL WHERE ID="+Session["ID"].ToString() +"";
+                //sorgu = "select ID,AD from ArizaTakip.dbo.CZ_PERSONEL WHERE ID=" + Session["ID"].ToString() + "";
+
+                DrpPersonel.Enabled = false;
+            }
+            //giriş yapan yöneticiyse
+            else
+            {
+                //sorgu = "select ID,AD from ArizaTakip.dbo.CZ_PERSONEL";
+                sorgu = "select ID,AD from CIZELGE.dbo.CZ_PERSONEL";
+            }
+
+            DataTable dt = cmd.returnDataTable(sorgu);
+
+            DrpPersonel.DataTextField = "AD";
+            DrpPersonel.DataValueField = "ID";
+
+            DrpPersonel.DataSource = dt;
+            DrpPersonel.DataBind();
+        }
+        //Güncelle butonuna tıklanınca verileri getir
+        private void veriGetir_()
+        {
+            //string sorgu = "SELECT ISN.ID , P.Id AS [Personel_ID],ISN.YAPILAN_IS AS [Yapilan Is],CONVERT(DATE,ISN.BASLANGIC_SAAT,104) AS [Baslangic Tarihi],CONVERT(CHAR(5),ISN.BASLANGIC_SAAT,108) AS [Baslangic Saati],CONVERT(DATE,ISN.BITIS_SAAT,104) AS [Bitis Tarihi],CONVERT(CHAR(5),ISN.BITIS_SAAT,108) AS [Bitis Saati] FROM ArizaTakip..CZ_IS ISN LEFT OUTER JOIN ArizaTakip.dbo.CZ_PERSONEL P ON ISN.PERSONEL_ID=P.ID WHERE ISN.ID='" + hdnValue.Value + "'";
+
+            string sorgu = "SELECT ISN.ID , P.Id AS [Personel_ID],ISN.YAPILAN_IS AS [Yapilan Is],CONVERT(DATE,ISN.BASLANGIC_SAAT,104) AS [Baslangic Tarihi],CONVERT(CHAR(5),ISN.BASLANGIC_SAAT,108) AS [Baslangic Saati],CONVERT(DATE,ISN.BITIS_SAAT,104) AS [Bitis Tarihi],CONVERT(CHAR(5),ISN.BITIS_SAAT,108) AS [Bitis Saati] FROM CIZELGE..CZ_IS ISN LEFT OUTER JOIN CIZELGE.dbo.CZ_PERSONEL P ON ISN.PERSONEL_ID=P.ID WHERE ISN.ID='" + hdnValue.Value + "'";
+
+            DataSet ds = cmd.returnDataSet(sorgu);
+            
+            DrpPersonel.SelectedValue = ds.Tables[0].Rows[0][1].ToString();
+            dateTarihBas.Value = ds.Tables[0].Rows[0][3].ToString();
+            dateTarihBit.Value = ds.Tables[0].Rows[0][5].ToString();
+            TxtYapilan.Text = ds.Tables[0].Rows[0][2].ToString();
+            DrpBas.SelectedValue = ds.Tables[0].Rows[0][4].ToString();
+            DrpBit.SelectedValue = ds.Tables[0].Rows[0][6].ToString();
+        }
+
+        #region Delete_
+        //Silme işlemi için metod
+        private void Delete_()
+        {
+            //string sorgu = "DELETE FROM ArizaTakip.dbo.CZ_IS WHERE ID='" + hdnValue.Value + "'";
+            string sorgu = "DELETE FROM CIZELGE.dbo.CZ_IS WHERE ID='" + hdnValue.Value + "'";
+
+            setTarihGetir();
+
+            bool result = cmd.returnKomut(sorgu);
+
+            haftaBas = WeekToDate(2018, Int16.Parse(LblHafta.Text));
+            haftaBit = haftaBas.AddDays(6);
+            //Silme işlemi başarılıysa
+            if (result == true)
+            {
+                ClientScript.RegisterStartupScript(this.GetType(), "alert", "mymodalu();", true);
+                this.LblMessage.Text = "Kayıt Silindi";
+                LblMessage.ForeColor = System.Drawing.Color.Green;
+
+                setKisiGetir();
+
+                DrpBas.SelectedValue = "00:00";
+                DrpBit.SelectedValue = "00:00";
+                TxtYapilan.Text = "";
+                hdnValue.Value = "";
+                hdnref.Value = "";
+            }
+            //Silme işlemi başarılı değilse
+            else
+            {
+                ClientScript.RegisterStartupScript(this.GetType(), "alert", "mymodalu();", true);
+                this.LblMessage.Text = "Kayıt Silinemedi";
+                LblMessage.ForeColor = System.Drawing.Color.Red;
+            }
+        }
+        #endregion
+
+        protected void SetDelete_Click(object sender, EventArgs e)
+        {
+            Delete_();
+        }
+        //Getir butonuna tıklanınca Datatable oluştur ve göster
+        private void setKisiGetir()
+        {
+            try
+            {
+                yonetici = Int16.Parse(Session["YONETICI"].ToString());
+
+                haftaBas = WeekToDate(2018, Int16.Parse(LblHafta.Text));
+                haftaBit = haftaBas.AddDays(6);
+
+                //string sorgu = "SELECT ISN.ID AS [Cizelge Numarasi],ISN.YAPILAN_IS AS [Yapilan Is], CONVERT(VARCHAR,ISN.BASLANGIC_SAAT,104) AS [Baslangic Tarihi],CONVERT(CHAR(5),ISN.BASLANGIC_SAAT,108) AS [Baslangic Saati],CONVERT(VARCHAR,ISN.BITIS_SAAT,104) AS [Bitis Tarihi],CONVERT(CHAR(5),ISN.BITIS_SAAT,108) AS [Bitis Saati],ISN.KAYIT_TARIHI AS [Kayit Tarihi], ISN.BASLANGIC_SAAT, ISN.BITIS_SAAT FROM ArizaTakip..CZ_IS ISN INNER JOIN ArizaTakip.dbo.CZ_PERSONEL P ON ISN.PERSONEL_ID=P.ID WHERE  (ISN.BASLANGIC_SAAT BETWEEN CONVERT(DATETIME,'" + haftaBas + "',104) AND CONVERT(DATETIME,'" + haftaBit + "',104)) AND P.ID ='" + DrpPersonel.SelectedValue.ToString() + "' ORDER BY ISN.ID DESC";
+
+                string sorgu = "SELECT ISN.ID AS [Cizelge Numarasi],ISN.YAPILAN_IS AS [Yapilan Is], CONVERT(VARCHAR,ISN.BASLANGIC_SAAT,104) AS [Baslangic Tarihi],CONVERT(CHAR(5),ISN.BASLANGIC_SAAT,108) AS [Baslangic Saati],CONVERT(VARCHAR,ISN.BITIS_SAAT,104) AS [Bitis Tarihi],CONVERT(CHAR(5),ISN.BITIS_SAAT,108) AS [Bitis Saati],ISN.KAYIT_TARIHI AS [Kayit Tarihi], ISN.BASLANGIC_SAAT, ISN.BITIS_SAAT FROM CIZELGE..CZ_IS ISN INNER JOIN CIZELGE.dbo.CZ_PERSONEL P ON ISN.PERSONEL_ID=P.ID WHERE  (ISN.BASLANGIC_SAAT BETWEEN CONVERT(DATETIME,'" + haftaBas + "',104) AND CONVERT(DATETIME,'" + haftaBit + "',104)) AND P.ID ='" + DrpPersonel.SelectedValue.ToString() + "' ORDER BY ISN.ID DESC";
+
+                DataSet ds = cmd.returnDataSet(sorgu);
+                //Tablo boş değilse
+                if (ds != null)
+                {
+                    StringBuilder html = new StringBuilder();
+
+                    html.Append("<table id='table' class='table  table-bordered table-hover' data-toggle='table'>");
+                    html.Append("<tr color: White;'><th>Çizelge Numarası</th><th>Yapılan İş</th><th>Başlangıç Tarihi</th><th>Bitiş Tarihi</th><th>Başlangıç Saati</th><th>Bitiş Saati</th><th>Toplam Çalışılan Saat(HH:MM)</th><th></th></tr>");
+
+                    if (!object.Equals(ds.Tables[0], null))
+                    {
+                        if (ds.Tables[0].Rows.Count > 0)
+                        {
+                            for (int i = 0; i < ds.Tables[0].Rows.Count; i++)
+                            {
+                                DateTime ilk = DateTime.Parse(ds.Tables[0].Rows[i][7].ToString());
+                                DateTime son = DateTime.Parse(ds.Tables[0].Rows[i][8].ToString());
+
+                                TimeSpan fark = son.Subtract(ilk);
+
+                                int sonuc = (Int16.Parse(fark.Days.ToString()) * 24) + Int16.Parse(fark.Hours.ToString());
+
+                                html.Append("<td>" + ds.Tables[0].Rows[i][0] + "</td>");
+                                html.Append("<td>" + ds.Tables[0].Rows[i][1] + "</td>");
+                                html.Append("<td>" + ds.Tables[0].Rows[i][2] + "</td>");
+                                html.Append("<td>" + ds.Tables[0].Rows[i][4] + "</td>");
+                                html.Append("<td>" + ds.Tables[0].Rows[i][3] + "</td>");
+                                html.Append("<td>" + ds.Tables[0].Rows[i][5] + "</td>");
+                                html.Append("<td>" + sonuc + ":" + fark.Minutes + "</td>");
+
+                                html.Append("<td><button name='button' class='btn btn-success' type='submit' value='1" + ds.Tables[0].Rows[i][0] + "' >GÜNCELLE</button></td>");
+
+                                html.Append("</tr>");
+
+                                if (yonetici == 1)
+                                {
+                                    Button1.Visible = true;
+                                }
+
+                                else
+                                {
+                                    Button1.Visible = false;
+                                }                                
+                            }
+                        }
+
+                        else
+                        {
+                            html.Append("<tr>");
+                            html.Append("<td align='center' colspan='8'>Kayıt Yok</td>");
+                            html.Append("</tr>");
+
+                            Button1.Visible = false;
+                        }
+                        html.Append("</table>");
+                    }
+                    DBDataPlaceHolder.Controls.Add(new Literal { Text = html.ToString() });
+                }
+            }
+
+            catch (Exception)
+            {
+            }
+        }
+        //Excel e aktarma işlemi için metod
+        protected void excelAktar()
+        {
+            try
+            {
+                haftaBas = WeekToDate(2018, Int16.Parse(LblHafta.Text));
+                haftaBit = haftaBas.AddDays(6);
+
+                //string sorgu = "SELECT ISN.ID AS [Cizelge Numarasi],ISN.YAPILAN_IS AS [Yapilan Is], CONVERT(DATE,ISN.BASLANGIC_SAAT,104) AS [Baslangic Tarihi],CONVERT(DATE,ISN.BITIS_SAAT,104) AS [Bitis Tarihi],CONVERT(CHAR(5),ISN.BASLANGIC_SAAT,108) AS [Baslangic Saati],CONVERT(CHAR(5),ISN.BITIS_SAAT,108) AS [Bitis Saati],RIGHT('0' + CAST((DATEDIFF(SECOND,ISN.BASLANGIC_SAAT,ISN.BITIS_SAAT) / 3600) AS VARCHAR),2) + ':' + RIGHT('0' + CAST(((DATEDIFF(SECOND,ISN.BASLANGIC_SAAT,ISN.BITIS_SAAT) / 60) % 60) AS VARCHAR),2) AS [Toplam Calisilan Saat] FROM ArizaTakip..CZ_IS ISN LEFT OUTER JOIN ArizaTakip.dbo.CZ_PERSONEL P ON ISN.PERSONEL_ID=P.ID WHERE (ISN.BASLANGIC_SAAT BETWEEN CONVERT(DATETIME,'" + haftaBas + "',104) AND CONVERT(DATETIME,'" + haftaBit + "',104)) AND P.ID ='" + DrpPersonel.SelectedValue.ToString() + "' ORDER BY ISN.ID DESC";
+
+                string sorgu = "SELECT ISN.ID AS [Cizelge Numarasi],ISN.YAPILAN_IS AS [Yapilan Is], CONVERT(DATE,ISN.BASLANGIC_SAAT,104) AS [Baslangic Tarihi],CONVERT(DATE,ISN.BITIS_SAAT,104) AS [Bitis Tarihi],CONVERT(CHAR(5),ISN.BASLANGIC_SAAT,108) AS [Baslangic Saati],CONVERT(CHAR(5),ISN.BITIS_SAAT,108) AS [Bitis Saati],RIGHT('0' + CAST((DATEDIFF(SECOND,ISN.BASLANGIC_SAAT,ISN.BITIS_SAAT) / 3600) AS VARCHAR),2) + ':' + RIGHT('0' + CAST(((DATEDIFF(SECOND,ISN.BASLANGIC_SAAT,ISN.BITIS_SAAT) / 60) % 60) AS VARCHAR),2) AS [Toplam Calisilan Saat] FROM CIZELGE..CZ_IS ISN LEFT OUTER JOIN CIZELGE.dbo.CZ_PERSONEL P ON ISN.PERSONEL_ID=P.ID WHERE (ISN.BASLANGIC_SAAT BETWEEN CONVERT(DATETIME,'" + haftaBas + "',104) AND CONVERT(DATETIME,'" + haftaBit + "',104)) AND P.ID ='" + DrpPersonel.SelectedValue.ToString() + "' ORDER BY ISN.ID DESC";
+
+                DataTable dt = cmd.returnDataTable(sorgu);
+
+                if (dt.Rows.Count > 0)
+                {
+
+                    Response.Clear();
+                    Response.ClearHeaders();
+                    Response.ClearContent();
+                    Response.ContentEncoding = System.Text.Encoding.GetEncoding("windows-1254");
+                    Response.Charset = "windows-1254";
+                    string filename = "Rapor.xls";
+                    System.IO.StringWriter tw = new System.IO.StringWriter();
+                    System.Web.UI.HtmlTextWriter hw = new System.Web.UI.HtmlTextWriter(tw);
+                    DataGrid dgGrid = new DataGrid();
+                    dgGrid.DataSource = dt;
+                    dgGrid.DataBind();
+
+                    //Get the HTML for the control.
+                    dgGrid.RenderControl(hw);
+                    //Write the HTML back to the browser.
+                    Response.ContentType =" application/vnd.ms-excel";
+                    Response.Output.Write(" <meta http-equiv='Content-Type' content='text/html; charset=windows-1254' />");
+                    Response.ContentType = "application/vnd.ms-excel";
+
+                    Response.AppendHeader("Content-Disposition", "attachment; filename=" + filename + "");
+
+                    this.EnableViewState = false;
+                    Response.Write(tw.ToString());
+                    Response.Flush();
+                    Response.End();
+
+
+                }
+
+                setKisiGetir();
+            }
+            catch (Exception)
+            {
+             
+            }
+        }
+        //Haftayı bul
+        private void setTarihGetir()
+        {
+            DateTime date = DateTime.ParseExact(dateTarihBas.Value, "dd-MM-yyyy", null);
+            CultureInfo cul = CultureInfo.CurrentCulture;
+            int sayacHafta = cul.Calendar.GetWeekOfYear(date, CalendarWeekRule.FirstFourDayWeek, DayOfWeek.Monday);
+            LblHafta.Text = sayacHafta.ToString();
+
+            haftaBas = WeekToDate(2018, sayacHafta);
+            haftaBit = haftaBas.AddDays(6);
+        }
+        //Haftanın başlangıç ve bitiş aralıgını hesapla
+        public static DateTime WeekToDate(int year, int weekOfYear)
+        {
+            DateTimeFormatInfo dfi = DateTimeFormatInfo.CurrentInfo;
+            DateTime jan1 = new DateTime(year, 1, 1);
+            int daysOffset = DayOfWeek.Thursday - jan1.DayOfWeek;
+
+            DateTime firstThursday = jan1.AddDays(daysOffset);
+            System.Globalization.Calendar cal = dfi.Calendar;
+            int firstWeek = cal.GetWeekOfYear(firstThursday, CalendarWeekRule.FirstFourDayWeek, DayOfWeek.Monday);
+
+            var weekNum = weekOfYear;
+
+            if (firstWeek <= 1)
+            {
+                weekNum -= 1;
+            }
+
+            var result = firstThursday.AddDays(weekNum * 7);
+            return result.AddDays(-3);
+        }
+        private DateTime Convert(string p)
+        {
+            throw new NotImplementedException();
+        }
+        //Başlangıç bitiş saatlerini doldur
+        private void setDropList()
+        {
+            List<ListItem> liste = new List<ListItem>();
+            DateTime sayac = new DateTime();
+
+            for (int i = 0; i < 48; i++)
+            {
+                DrpBas.Items.Add(sayac.AddMinutes(30).ToString("HH:mm"));
+                DrpBit.Items.Add(sayac.AddMinutes(30).ToString("HH:mm"));
+
+                sayac = sayac.AddMinutes(30);
+            }           
+        }
+        protected void BtnGeri_Click(object sender, EventArgs e)
+        {
+            yonetici = Int16.Parse(Session["YONETICI"].ToString());
+
+            int sayac = 0;
+            sayac = Int16.Parse(LblHafta.Text);
+            sayac--;
+
+            LblHafta.Text = sayac.ToString();
+
+            haftaBas = WeekToDate(2018, sayac);
+            haftaBit = haftaBas.AddDays(6);
+
+            if (yonetici == 1)
+            {
+                Button1.Visible = true;
+            }
+
+            else
+            {
+                Button1.Visible = false;
+            }
+            
+            setKisiGetir();         
+        }
+        protected void BtnIleri_Click(object sender, EventArgs e)
+        {
+            yonetici = Int16.Parse(Session["YONETICI"].ToString());
+
+            int sayac = 0;
+            sayac = Int16.Parse(LblHafta.Text);
+            sayac++;
+
+            LblHafta.Text = sayac.ToString();
+
+            haftaBas = WeekToDate(2018, sayac);
+            haftaBit = haftaBas.AddDays(6);
+
+            if (yonetici == 1)
+            {
+                Button1.Visible = true;
+            }
+
+            else
+            {
+                Button1.Visible = false;
+            }
+
+            setKisiGetir();          
+        }
+        protected void button_Click(object sender, EventArgs e)
+        {
+            Kaydet_();
+        }
+        protected void BtnGetir_Click1(object sender, EventArgs e)
+        {
+            yonetici = Int16.Parse(Session["YONETICI"].ToString());
+
+            setTarihGetir();
+            setKisiGetir();
+
+            if (yonetici == 1)
+            {
+                Button1.Visible = true;
+            }
+
+            else
+            {
+                Button1.Visible = false;
+            }
+
+        }
+        protected void BtnExcel_Click(object sender, EventArgs e)
+        {
+            excelAktar();
+        }
+        protected void btnVazgec_Click(object sender, EventArgs e)
+        {
+            yonetici = Int16.Parse(Session["YONETICI"].ToString());
+
+            DrpBas.SelectedValue = "00:00";
+            DrpBit.SelectedValue = "00:00";
+            TxtYapilan.Text = "";
+            hdnValue.Value = "";
+            hdnref.Value = "";
+
+            setKisiGetir();
+
+            btnVazgec.Visible = false;
+            btnSil.Visible = false;
+
+            if (yonetici == 1)
+            {
+                Button1.Visible = true;
+            }
+
+            else
+            {
+                Button1.Visible = false;
+            }
+        }
+        protected void BtnCikis_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Default.aspx");
+        }
+        protected void BtnRapor_Click(object sender, EventArgs e)
+        {
+            yonetici = Int16.Parse(Session["YONETICI"].ToString());
+
+            if (yonetici == 1)
+            {
+                Response.Redirect("Rapor.aspx");
+                Session.Abandon();
+            }
+        }
+    }
+}
